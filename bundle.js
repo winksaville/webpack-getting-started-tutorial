@@ -70,7 +70,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-module.exports = "It works from content.js.";
+module.exports = "Using 'webpack --watch'";
 
 
 /***/ }),
