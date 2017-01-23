@@ -4,7 +4,10 @@
   "description": "Webpack getting stated tutorial",
   "author": "Wink Saville",
   "license": "Unlicense",
-  "devDependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1"
+  },
   "dependencies": {},
   "scripts": {
     "test": "echo \"Error: no test script\" && exit 1",
