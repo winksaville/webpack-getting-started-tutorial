@@ -25,7 +25,8 @@ Initial package.json:
 ```
 node.js
 npm
-webpack 2
+webpack@2
+webpack-dev-server@2
 ```
 
 Building from the command line:
@@ -36,3 +37,16 @@ npm install
 webpack
 chromium ./index.html
 ```
+
+To use webpack-dev-server execute it in a new terminal window:
+```
+webpack-dev-server
+```
+
+And then in the browser use this url:
+```
+chromium http://localhost:8080/webpack-dev-server/index.html
+```
+
+You can now edit content.js and when saving it the
+browser window will be update automatically.
