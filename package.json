@@ -4,6 +4,10 @@
   "description": "Webpack getting stated tutorial",
   "author": "Wink Saville",
   "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winksaville/webpack-getting-started-tutorial"
+  },
   "devDependencies": {
     "css-loader": "^0.26.1",
     "style-loader": "^0.13.1"
