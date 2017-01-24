@@ -20,3 +20,19 @@ Initial package.json:
   }
 }
 ```
+
+# Prerequistes
+```
+node.js
+npm
+webpack 2
+```
+
+Building from the command line:
+```
+git clone https://github.com/winksaville/webpack-getting-started-tutorial
+cd webpack-getting-started-tutorial
+npm install
+webpack
+chromium ./index.html
+```

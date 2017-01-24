@@ -1,1 +1,1 @@
-module.exports = "Using 'webpack-dev-server'";
+module.exports = "Using 'webpack'";
