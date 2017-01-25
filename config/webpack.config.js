@@ -2,7 +2,7 @@ var path = require('path');
 var prjPath = path.resolve();
 var srcPath = path.resolve("src");
 var libPath = path.resolve("lib");
-var modulePath = path.resolve("node_modules");
+var modulePath = "node_modules";
 
 module.exports = {
   entry: path.join(srcPath, "entry.js"),
