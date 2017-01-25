@@ -94,9 +94,11 @@ if(false) {
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "Using 'webpack'";
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return content; });
+var content = "Using 'webpack'";
 
 
 /***/ }),
@@ -423,10 +425,14 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 /* 5 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_content__ = __webpack_require__(1);
 __webpack_require__(0);
-document.write(__webpack_require__(1));
+
+document.write("content=" + __WEBPACK_IMPORTED_MODULE_0_content__["a" /* content */]);
 
 
 /***/ })

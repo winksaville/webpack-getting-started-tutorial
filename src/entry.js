@@ -1,2 +1,3 @@
 require("!style-loader!css-loader!./style.css");
-document.write(require("./content.js"));
+import { content } from 'content';
+document.write("content=" + content);

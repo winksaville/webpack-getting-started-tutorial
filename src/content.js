@@ -1,1 +1,1 @@
-module.exports = "Using 'webpack'";
+export var content = "Using 'webpack'";
