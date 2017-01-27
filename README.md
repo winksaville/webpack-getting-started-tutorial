@@ -40,12 +40,12 @@ chromium ./index.html
 
 To use webpack-dev-server execute it in a new terminal window:
 ```
-webpack-dev-server
+npm run server
 ```
 
-And then in the browser use this url:
+And then in a different window run:
 ```
-chromium http://localhost:8080/webpack-dev-server/index.html
+npm run client
 ```
 
 You can now edit content.js and when saving it the

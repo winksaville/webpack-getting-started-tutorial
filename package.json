@@ -10,12 +10,14 @@
   },
   "devDependencies": {
     "css-loader": "^0.26.1",
-    "style-loader": "^0.13.1"
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
   },
   "dependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test script\" && exit 1",
-    "start": "echo \"Error: no start script\" && exit 1",
+    "client": "chromium http://localhost:8080/index.html",
+    "server": "npm run build ; webpack-dev-server --config config/webpack.config.js --hot --inline",
     "build": "webpack --config ./config/webpack.config.js"
   },
   "standard": {
