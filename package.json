@@ -9,14 +9,15 @@
     "url": "https://github.com/winksaville/webpack-getting-started-tutorial"
   },
   "devDependencies": {
-    "css-loader": "^0.26.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^2.2.0",
-    "webpack-dev-server": "^2.2.0"
+    "css-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.0"
   },
   "dependencies": {},
   "scripts": {
-    "client": "chromium http://localhost:8080/index.html",
+    "client": "google-chrome-stable http://localhost:8080/index.html",
     "server": "npm run build ; webpack-dev-server --config config/webpack.config.js --hot --inline",
     "build": "webpack --config ./config/webpack.config.js"
   },

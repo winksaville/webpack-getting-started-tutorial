@@ -9,6 +9,7 @@ var modulePath = "node_modules";
 
 module.exports = {
   entry: path.join(srcPath, "entry.js"),
+  mode: 'development',
   output: {
     path: distPath,
     publicPath: pubPath,
@@ -23,7 +24,7 @@ module.exports = {
     ]
   },
   module: {
-    loaders: [
+    rules: [
       { test: /\.css$/, loader: "style!css" }
     ]
   }
